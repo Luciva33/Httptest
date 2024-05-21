@@ -56,7 +56,7 @@ public class MusicController : MonoBehaviour
     }
     public void stopBt()
     {
-        myAudio.volume = volSlider.value;
+        myAudio.Stop();
     }
 
     public void onVolChange()
